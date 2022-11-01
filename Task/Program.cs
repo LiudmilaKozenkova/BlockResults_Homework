@@ -23,7 +23,7 @@ void CreateFillNewArray(string[] array1, string[] array2)
 }
 
 // 3. Распечатать массив 
-void Print(int[] array)
+void Print(string[] array)
 {
     int size = array.Length;
     for (int i = 0; i < size; i++)
@@ -33,3 +33,5 @@ void Print(int[] array)
     Console.WriteLine();
 }
 
+CreateFillNewArray(array1, array2);
+Print(array2);

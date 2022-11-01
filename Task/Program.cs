@@ -9,7 +9,6 @@ string[] array2 = new string[array1.Length];
 
 // 2. Метод заполнения нового массива из строк,
 // длина которых меньше 3 символов.
-
 void CreateFillNewArray(string[] array1, string[] array2)
 {
     int pos = 0;
@@ -23,5 +22,14 @@ void CreateFillNewArray(string[] array1, string[] array2)
     }
 }
 
-
+// 3. Распечатать массив 
+void Print(int[] array)
+{
+    int size = array.Length;
+    for (int i = 0; i < size; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+    Console.WriteLine();
+}
 
